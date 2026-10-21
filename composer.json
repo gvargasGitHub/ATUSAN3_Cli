@@ -1,0 +1,18 @@
+{
+  "name": "gvargas/atusan-cli",
+  "description": "Command Line Interface for ATUSAN 3",
+  "type": "library",
+  "license": "MIT",
+  "bin": [
+      "bin/atusan-cli"
+  ],
+  "autoload": {
+      "psr-4": {
+          "AtusanCLI\\": "src/"
+      }
+  },
+  "require": {
+      "php": "^8.2",
+      "gvargas/atusan-core": "^3.0"
+  }
+}
