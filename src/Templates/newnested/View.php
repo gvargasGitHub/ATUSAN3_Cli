@@ -10,11 +10,19 @@
 </div>
 <!-- JAVASCRIPT -->
 <script>
-  module_name.onOpen = function() {
+  (function(){
+    module_name.onOpen = function() {
+      this.registerResizeListener();
+    };
+    module_name.onResize = function() {
 
-    this.registerResizeListener();
-  };
-  module_name.onResize = function() {
+    };
+    module_name.onClose = function() {
 
-  };
+    };
+
+    // TODO
+
+    module_name.scriptReady = true;
+  })();
 </script>

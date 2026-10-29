@@ -23,4 +23,5 @@
 ?>
 <!-- JAVASCRIPT -->
 <script>
+  Home.scriptReady = true;
 </script>
